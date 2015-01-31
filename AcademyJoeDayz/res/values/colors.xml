@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="borde_imagen">#BABABA</color>
+    <color name="linea_par">#81F7F3</color>
+    <color name="linea_impar">#F5A9A9</color>
+</resources>

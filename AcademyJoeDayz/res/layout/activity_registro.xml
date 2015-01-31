@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pe.joedayz.academyjoedayz.RegistroActivity" >
+
+    <ImageView 
+        android:id="@+id/imgFoto"
+        android:src="@drawable/ic_launcher"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: " />
+    
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   	    android:ems="10"
+   	    android:hint="Ingrese nombre">
+    	    
+   	    <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Site: " />
+    
+    <EditText
+        android:id="@+id/edtSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   	    android:ems="10"
+   	    android:hint="Ingrese site">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección: " />
+    
+    <EditText
+        android:id="@+id/edtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   	    android:ems="10"
+   	    android:hint="Ingrese dirección">
+    </EditText>
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: " />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Ingrese teléfono" />        
+
+	<TextView
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:text="Nota: " />
+        
+    <RatingBar
+        android:id="@+id/rtbCalificacion"
+        android:numStars="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/btnGrabar"        
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Grabar" />
+        
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
